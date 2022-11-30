@@ -1,0 +1,50 @@
+@import 'IdeaProjects/kolbymorris.github.io/assets/sass/libs/vars';
+@import 'IdeaProjects/kolbymorris.github.io/assets/sass/libs/functions';
+@import 'IdeaProjects/kolbymorris.github.io/assets/sass/libs/mixins';
+@import 'IdeaProjects/kolbymorris.github.io/assets/sass/libs/vendor';
+@import 'IdeaProjects/kolbymorris.github.io/assets/sass/libs/breakpoints';
+@import 'fontawesome-all.min.css';
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600');
+
+/*
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+// Breakpoints.
+
+	@include breakpoints((
+		xlarge:   ( 1281px,  1680px ),
+		large:    ( 981px,   1280px ),
+		medium:   ( 737px,   980px  ),
+		small:    ( 481px,   736px  ),
+		xsmall:   ( 361px,   480px  ),
+		xxsmall:  ( null,    360px  )
+	));
+
+// Base.
+
+	@import 'IdeaProjects/kolbymorris.github.io/assets/sass/base/reset';
+	@import 'IdeaProjects/kolbymorris.github.io/assets/sass/base/page';
+	@import 'IdeaProjects/kolbymorris.github.io/assets/sass/base/typography';
+
+// Component.
+
+	@import 'IdeaProjects/kolbymorris.github.io/assets/sass/components/form';
+	@import 'IdeaProjects/kolbymorris.github.io/assets/sass/components/box';
+	@import 'IdeaProjects/kolbymorris.github.io/assets/sass/components/icon';
+	@import 'IdeaProjects/kolbymorris.github.io/assets/sass/components/image';
+	@import 'IdeaProjects/kolbymorris.github.io/assets/sass/components/list';
+	@import 'IdeaProjects/kolbymorris.github.io/assets/sass/components/actions';
+	@import 'IdeaProjects/kolbymorris.github.io/assets/sass/components/icons';
+	@import 'IdeaProjects/kolbymorris.github.io/assets/sass/components/table';
+	@import 'IdeaProjects/kolbymorris.github.io/assets/sass/components/button';
+
+// Layout.
+
+	@import 'IdeaProjects/kolbymorris.github.io/assets/sass/layout/bg';
+	@import 'IdeaProjects/kolbymorris.github.io/assets/sass/layout/wrapper';
+	@import 'IdeaProjects/kolbymorris.github.io/assets/sass/layout/header';
+	@import 'IdeaProjects/kolbymorris.github.io/assets/sass/layout/main';
+	@import 'IdeaProjects/kolbymorris.github.io/assets/sass/layout/footer';
